@@ -1,4 +1,4 @@
-"""Reproduce only the StudyChat prediction analyses reported in Supplement S3.
+"""Reproduce only the StudyChat prediction analyses reported in Supplementary Section S9.
 
 Algorithms are retained from analysis/studychat.py; legacy unreported dialogue
 models are not run. Source score files remain local and are never redistributed.
@@ -276,7 +276,7 @@ extension['numerical_validation'] = {
 assert extension['numerical_validation']['passed']
 assert all(extension['validation_checks'].values())
 
-# Targeted post-submission-audit diagnostics (D06/S11/S12). These summarize the
+# Targeted post-submission-audit diagnostics (audit task IDs D06/S11/S12). These summarize the
 # existing released scores and unchanged held-out predictions, not new models.
 post_audit_spec = {
     'status':'post-audit addition; method fixed before diagnostic computation',

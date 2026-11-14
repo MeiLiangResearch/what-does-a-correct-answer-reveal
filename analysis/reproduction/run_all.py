@@ -20,7 +20,7 @@ def main():
     parser.add_argument('--bastani-dir', type=Path, required=True,
                         help='Git checkout of GenAICanHarmLearning at the documented commit')
     parser.add_argument('--studychat-dir', type=Path,
-                        help='Authorized StudyChat release containing scores/; omit to skip S3')
+                        help='Authorized StudyChat release containing scores/; omit to skip Section S9')
     parser.add_argument('--outdir', type=Path, required=True)
     parser.add_argument('--figures', action='store_true')
     args = parser.parse_args()
@@ -79,7 +79,7 @@ def main():
         run('render_figures.py', '--results-dir', out / 'mathematics',
             '--diagnostics-dir', out / 'diagnostics', '--outdir', out / 'figures')
         run('render_calibration.py', '--results-dir', out / 'mathematics',
-            '--outdir', out / 'figures' / 'figure_S1')
+            '--outdir', out / 'figures' / 'figure_S2')
 
 if __name__ == '__main__':
     main()

@@ -1,4 +1,4 @@
-"""Render the four main figures and Figure S2 from reproduced results.
+"""Render the four main figures and Figure S1 from reproduced results.
 Figure drawing functions are preserved from the manuscript figure sources.
 """
 from pathlib import Path
@@ -168,7 +168,7 @@ def figure4():
     # These are the displayed AND plotted records in the accepted 9 October SVG.
     # Keeping them frozen preserves the primary/exploratory distinction and all intervals.
     records = json.loads((Path(__file__).resolve().parent / 'figure4_aggregate_data.json').read_text(encoding='utf-8'))
-    # The course estimate is retained in Supplementary Table S3b.
+    # The course estimate is retained in Supplementary Table S12.
     records = [r for r in records if r['panel'] == 0]
     fig, ax = plt.subplots(figsize=(180 / 25.4, 69 / 25.4))
     fig.subplots_adjust(left=.43, right=.975, bottom=.23, top=.88)
@@ -231,9 +231,9 @@ def residual_figure():
     ax.set(xlabel='Leverage',ylabel='Studentized residual',xticks=[0,.005,.010,.015,.020],xlim=(0,.024))
     title(ax,'d','Influence diagnostics')
     fig.text(.105,.025,f'All {n:,} complete pairs shown; 825 students in 44 classes. Orange points in d: Cook distance > 4/n.',fontsize=7)
-    save(fig,'Figure_S2_OLS_diagnostics')
+    save(fig,'Figure_S1_OLS_diagnostics')
 apply_style()
 fig1();figure2();figure3();figure4()
 plt.rcParams.update({"font.size":8,"axes.labelsize":8,"xtick.labelsize":7.5,"ytick.labelsize":7.5})
 residual_figure()
-print("Rendered main Figures 1-4 and Supplementary Figure S2")
+print("Rendered main Figures 1-4 and Supplementary Figure S1")

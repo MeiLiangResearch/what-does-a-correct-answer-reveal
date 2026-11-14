@@ -377,7 +377,7 @@ def main():
                          'contrast':row['contrast'],**{k+'_pp':row[k]*100 for k in ['estimate','se','ci_low','ci_high']},
                          'df':row['df'],'p_value':row['p_value'],'p_holm_within_model':row.get('p_holm_within_model'),
                          'covariance':info['covariance']})
-    csv('Table_S7_model_contrasts.csv',rows)
+    csv('Table_S3_model_contrasts.csv',rows)
     after={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in inputs}
     assert before==after
     RESULT['checks']['all_original_input_hashes_unchanged']=True
