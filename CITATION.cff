@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite the manuscript and the eventual archived version of this analysis code."
+message: "Please cite the manuscript and this GitHub repository when using the analysis code."
 title: "What Does a Correct Answer Reveal? AI-Assisted Practice and Performance Without AI: analysis code"
 authors:
   - family-names: Liang
