@@ -1,0 +1,21 @@
+{
+  ".gitignore": "3abba99fb72f5dfc8d51642ee2e81bd8480bbd9396d10f94c218e09efba6aa18",
+  "analysis/analysis_spec.md": "6ca93e6363922846d48228962626d7dfb5a7e98bd8b50f29d3e1678f70a2292e",
+  "analysis/bastani.py": "972a4e5e8869616fceadaa9842b22b8cc5b9dda2826618611bfb9df822eb2641",
+  "analysis/reproduction/figure4_aggregate_data.json": "b68fdbf8d8f61dbdf5e0da651882265b860647f160a122cee5baf067d6321132",
+  "analysis/reproduction/figure_style.py": "65a39cd63e592998ba2b29f6a6142a56662b43aebe772f8ca2bf768d91e7cd1e",
+  "analysis/reproduction/render_calibration.py": "224179fb6a841c0baf9949f02a5dcdbd339d32f333c1a1e8330191911459b573",
+  "analysis/reproduction/render_figures.py": "055a6722a325f4a72854219e9fd618788116ba10695d3a31f758ca40f484da86",
+  "analysis/reproduction/reproduce_correct_practice_analysis.py": "d1de0e4fe242cc0bafb604639c0f838c4c7c8f9e24db2000b3fc06d6c7d76344",
+  "analysis/reproduction/reproduce_diagnostics.py": "799693540d3630ce32ea5db3da9b926051c3660ff0e3c1bc5d916569127cfc8f",
+  "analysis/reproduction/reproduce_studychat_prediction.py": "8546d658b11eec1af980bd1cecec4ad158dca661a4ba55bf00d84ab703074771",
+  "analysis/reproduction/run_all.py": "f75b7b2c7338bc7d17280604cdb5cff49516520c2784ca4c641e173a94a1fb04",
+  "analysis/reproduction/verify_classification_bootstrap.py": "54dca488c0234e9644b89fc57219c956c4a08806f553f5e16297e4869a55201d",
+  "analysis/reproduction/verify_cr2_and_weighting.py": "4b1454409a9c1235f0d63f2c01acccca7ba5788edffb9d21e46f0b2df0417b56",
+  "analysis/reproduction/verify_full_sample_predictions.py": "219967646b582b76719ba1aa756a1ecb4704e52223c7f28ee3a7b449457ef7b3",
+  "analysis/reproduction/verify_primary_association.py": "2871d75fe86d439307bd77c726089b451611e6786e8781886e3bd44285be0a73",
+  "CITATION.cff": "fbfd917c5e76c52dc2e2a9362bae0bc5bc76e9e7627078124165dffe96a1387b",
+  "README.md": "6f0359c9c0b9dd708368514c6f10a19ee5a36287eb0e906db0880ae8cbf812fb",
+  "REPRODUCIBILITY.md": "ee8631d48c21a9f5798c843efcf922efb04b0faa41fc8bf2cd182f8938d6688b",
+  "requirements.txt": "e54bb364da7bcf556b99d03ad4cee416e6eeaf8c3ea3080b944162be2a2b2172"
+}

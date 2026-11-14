@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+source_bastani/
+source_studychat/
+local_outputs/
+analysis/results/
+*.log
