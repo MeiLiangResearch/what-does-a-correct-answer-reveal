@@ -1,0 +1,24 @@
+[
+  {
+    "panel": 0,
+    "label": "All matched responses (primary)",
+    "estimate": -2.66,
+    "ci_low": -3.4,
+    "ci_high": -1.94,
+    "display": "−2.66  [−3.40, −1.94]",
+    "color": "#657780",
+    "marker": "o",
+    "y": 0.71
+  },
+  {
+    "panel": 0,
+    "label": "Correct practice only (exploratory)",
+    "estimate": -3.32,
+    "ci_low": -4.48,
+    "ci_high": -2.34,
+    "display": "−3.32  [−4.48, −2.34]",
+    "color": "#31789B",
+    "marker": "D",
+    "y": 0.26
+  }
+]
